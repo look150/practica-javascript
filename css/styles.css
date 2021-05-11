@@ -1,0 +1,59 @@
+html {
+
+  box-sizing: border-box;
+
+  font-family:sans-serif;
+
+}
+
+
+
+*,
+
+*:before,
+
+*:after {
+
+  box-sizing: inherit;
+
+}
+
+.container1{
+  display: grid;
+  max-height: 200px;
+  background: #6c54e8;
+  color: white;
+  margin: 10px;
+  justify-items: center;
+  font-size: 30px;
+
+}
+
+.container2{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+ 
+  
+}
+
+main{
+  text-align: center;
+}
+
+input{
+  font-size: 20px;
+  padding: 10px;
+}
+.container3{
+  display: flex;
+  justify-content: center;
+
+}
+
+li{
+
+  list-style: none;
+  font-size: 20px;
+
+}
